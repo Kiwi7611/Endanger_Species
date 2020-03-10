@@ -1,0 +1,1027 @@
+body {
+    background-color:rgb(200,167,126);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    width:120px;
+    margin:20px;
+}
+
+.animal_positions {
+    position:absolute;
+    top:33%;
+    left:20%;
+
+}
+
+.animal_positions img {
+    clip-path:circle(30% at 40%);
+    width:68%;
+    height:auto;
+  
+}
+
+.animal_positionsBR {
+    position:absolute;
+    top:22%;
+    left:20%;
+
+}
+
+.animal_positionsBR img {
+    clip-path:circle(30% at 40%);
+    width:68%;
+    height:auto;
+  
+}
+
+
+.animal_positionsBO {
+    position:absolute;
+    top:22%;
+    left:20%;
+
+}
+
+.animal_positionsBO img {
+    clip-path:circle(30% at 40%);
+    width:800px;
+    height:auto;
+    margin:20px;
+    
+}
+
+
+.animal_positionsCRG {
+    position:absolute;
+    top:33%;
+    left:16%;
+
+}
+
+.animal_positionsCRG img {
+    clip-path:circle(180px at 53%);
+    width:800px;
+    height:auto;
+    margin:20px;   
+  
+}
+
+.animal_positionsELG {
+    position:absolute;
+    top:35%;
+    left:16%;
+
+}
+
+.animal_positionsELG img {
+    clip-path:circle(170px at 40%);
+    width:700px;
+    height:auto;
+    margin:20px;
+  
+}
+
+.animal_positionsHT {
+    position:absolute;
+    top:33%;
+    left:27%;
+}
+
+.animal_positionsHT img {
+    clip-path:circle(180px at 32%);
+    width:800px;
+    height:auto;
+}
+
+.animal_positionsJR {
+    position:absolute;
+    top:20%;
+    left:26%;
+}
+
+.animal_positionsJR img {
+    clip-path:circle(180px at 25%);
+    width:800px;
+    height:auto;
+}
+
+
+
+.animal_positionsO {
+    position:absolute;
+    top:24%;
+    left:26%;
+}
+
+.animal_positionsO img {
+    clip-path:circle(180px at 28%);
+    width:800px;
+    height:auto;
+ 
+}
+
+.animal_positionsS {
+    position:absolute;
+    top:18%;
+    left:26%;
+
+
+}
+
+.animal_positionsS img {
+    clip-path:circle(180px at 28%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsSE {
+    position:absolute;
+    top:24%;
+    left:17%;
+
+}
+
+.animal_positionsSE img {
+    clip-path:circle(180px at 48%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsSR {
+    position:absolute;
+    top:24%;
+    left:12%;
+}
+
+.animal_positionsSR img {
+    clip-path:circle(180px at 63%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsST {
+    position:absolute;
+    top:24%;
+    left:10%;
+
+}
+
+.animal_positionsST img {
+    clip-path:circle(210px at 63%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsV {
+    position:absolute;
+    top:25%;
+    left:23%;
+}
+
+.animal_positionsV img {
+    clip-path:circle(190px at 42%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsWLG {
+    position:absolute;
+    top:36%;
+    left:12%;
+}
+
+.animal_positionsWLG img {
+    clip-path:circle(160px at 60%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsYFP {
+    position:absolute;
+    top:36%;
+    left:27%;
+
+
+}
+
+.animal_positionsYFP img {
+    clip-path:circle(160px at 30%);
+    width:800px;
+    height:auto; 
+}
+
+
+.animal_positionsAWG {
+    position:absolute;
+    top:22%;
+    left:19%;
+}
+
+.animal_positionsAWG img {
+    clip-path:circle(160px at 50%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsAE {
+    position:absolute;
+    top:22%;
+    left:19%;
+}
+
+.animal_positionsAE img {
+    clip-path:circle(180px at 50%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsBFF {
+    position:absolute;
+    top:17%;
+    left:27%;
+
+
+}
+
+.animal_positionsBFF img {
+    clip-path:circle(180px at 30%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsBW {
+    position:absolute;
+    top:17%;
+    left:9%;
+
+
+}
+
+.animal_positionsBW img {
+    clip-path:circle(180px at 70%);
+    width:500px;
+    height:auto; 
+}
+
+.animal_positionsBT {
+    position:absolute;
+    top:17%;
+    left:22%;
+
+}
+
+.animal_positionsBT img {
+    clip-path:circle(180px at 35%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsB {
+    position:absolute;
+    top:17%;
+    left:13%;
+}
+
+.animal_positionsB img {
+    clip-path:circle(200px at 60%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsHW {
+    position:absolute;
+    top:17%;
+    left:11%;
+
+}
+
+.animal_positionsHW img {
+    clip-path:circle(190px at 65%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsGT {
+    position:absolute;
+    top:20%;
+    left:25%;
+}
+
+.animal_positionsGT img {
+    clip-path:circle(190px at 30%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positions_name {
+  text-align:center;
+  font-size:60px;
+  
+}
+
+ul {
+    position:absolute;
+    top:38%;
+    left:55%;
+    margin:4px;
+}
+
+li {
+  margin:0 0 20px 0;
+}
+
+.titles {
+    text-transform:uppercase;
+    font-size:11px;
+    margin-left:9px;
+}
+
+
+.container {
+    overflow:hidden;
+    position:relative;
+    font-size:11px;
+    margin-left:9px;
+}
+
+.containersc {
+    overflow:hidden;
+    position:relative;
+    font-size:11px;
+    font-style: italic;
+    margin-left:9px;
+}
+		
+
+
+@media only screen and (max-width:500px) {
+	
+.animal_positions {
+    position:absolute;
+    top:23%;
+    left:9%;
+
+}
+
+.animal_positions img {
+    clip-path:circle(30% at 40%);
+    width:68%;
+    height:auto;
+  
+}
+
+.animal_positionsBR {
+    position:absolute;
+    top:15%;
+    left:11%;
+
+}
+
+.animal_positionsBR img {
+    clip-path:circle(30% at 40%);
+    width:68%;
+    height:auto;
+  
+}
+
+
+.animal_positionsBO {
+    position:absolute;
+    top:14%;
+    left:9%;
+
+}
+
+.animal_positionsBO img {
+    clip-path:circle(30% at 40%);
+    width:800px;
+    height:auto;
+    margin:20px;
+    
+}
+
+
+.animal_positionsCRG {
+    position:absolute;
+    top:22%;
+    left:9%;
+
+}
+
+.animal_positionsCRG img {
+    clip-path:circle(180px at 53%);
+    width:800px;
+    height:auto;
+    margin:20px;   
+  
+}
+
+.animal_positionsELG {
+    position:absolute;
+    top:22%;
+    left:8%;
+
+}
+
+.animal_positionsELG img {
+    clip-path:circle(170px at 40%);
+    width:700px;
+    height:auto;
+    margin:20px;
+  
+}
+
+.animal_positionsHT {
+    position:absolute;
+    top:22%;
+    left:10%;
+}
+
+.animal_positionsHT img {
+    clip-path:circle(180px at 32%);
+    width:800px;
+    height:auto;
+}
+
+.animal_positionsJR {
+    position:absolute;
+    top:10%;
+    left:10%;
+}
+
+.animal_positionsJR img {
+    clip-path:circle(180px at 25%);
+    width:800px;
+    height:auto;
+}
+
+
+
+.animal_positionsO {
+    position:absolute;
+    top:12%;
+    left:10%;
+}
+
+.animal_positionsO img {
+    clip-path:circle(180px at 28%);
+    width:800px;
+    height:auto;
+ 
+}
+
+.animal_positionsS {
+    position:absolute;
+    top:20%;
+    left:10%;
+
+
+}
+
+.animal_positionsS img {
+    clip-path:circle(180px at 28%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsSE {
+    position:absolute;
+    top:12%;
+    left:8%;
+
+}
+
+.animal_positionsSE img {
+    clip-path:circle(180px at 48%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsSR {
+    position:absolute;
+    top:12%;
+    left:12%;
+}
+
+.animal_positionsSR img {
+    clip-path:circle(180px at 63%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsST {
+    position:absolute;
+    top:12%;
+    left:10%;
+
+}
+
+.animal_positionsST img {
+    clip-path:circle(210px at 63%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsV {
+    position:absolute;
+    top:12%;
+    left:23%;
+}
+
+.animal_positionsV img {
+    clip-path:circle(190px at 42%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsWLG {
+    position:absolute;
+    top:12%;
+    left:12%;
+}
+
+.animal_positionsWLG img {
+    clip-path:circle(160px at 60%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsYFP {
+    position:absolute;
+    top:20%;
+    left:15%;
+
+
+}
+
+.animal_positionsYFP img {
+    clip-path:circle(160px at 30%);
+    width:800px;
+    height:auto; 
+}
+
+
+.animal_positionsAWG {
+    position:absolute;
+    top:12%;
+    left:12%;
+}
+
+.animal_positionsAWG img {
+    clip-path:circle(160px at 50%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsAE {
+    position:absolute;
+    top:12%;
+    left:19%;
+}
+
+.animal_positionsAE img {
+    clip-path:circle(180px at 50%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsBFF {
+    position:absolute;
+    top:9%;
+    left:27%;
+
+
+}
+
+.animal_positionsBFF img {
+    clip-path:circle(180px at 30%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsBW {
+    position:absolute;
+    top:9%;
+    right:60%;
+
+
+}
+
+.animal_positionsBW img {
+    clip-path:circle(180px at 70%);
+    width:650px;
+    height:auto; 
+}
+
+.animal_positionsBT {
+    position:absolute;
+    top:9%;
+    left:9%;
+
+}
+
+.animal_positionsBT img {
+    clip-path:circle(180px at 35%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsB {
+    position:absolute;
+    top:9%;
+    left:15%;
+}
+
+.animal_positionsB img {
+    clip-path:circle(200px at 60%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsHW {
+    position:absolute;
+    top:9%;
+    left:18%;
+
+}
+
+.animal_positionsHW img {
+    clip-path:circle(190px at 65%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsGT {
+    position:absolute;
+    top:10%;
+    left:16%;
+}
+
+.animal_positionsGT img {
+    clip-path:circle(190px at 30%);
+    width:800px;
+    height:auto; 
+}
+	
+	
+.animal_positions_name {
+  text-align:center;
+  font-size:50px;
+  
+}
+	
+ul {
+    position:absolute;
+    top:47%;
+    left:5%;
+    margin:4px;
+}
+	
+	}
+
+
+@media only screen and (max-width:320px) {
+	
+.animal_positions_name {
+  text-align:center;
+  font-size:40px;
+  
+}
+	
+ul {
+    position:absolute;
+    top:50%;
+    left:8%;
+    margin:4px;
+}
+
+li {
+  margin:0 0 10px 0;
+}	
+	
+		}
+		
+.animal_positions {
+    position:absolute;
+    top:20%;
+    left:9%;
+
+}
+
+.animal_positions img {
+    clip-path:circle(30% at 40%);
+    width:68%;
+    height:auto;
+  
+}
+
+.animal_positionsBR {
+    position:absolute;
+    top:15%;
+    left:11%;
+
+}
+
+.animal_positionsBR img {
+    clip-path:circle(30% at 40%);
+    width:68%;
+    height:auto;
+  
+}
+
+
+.animal_positionsBO {
+    position:absolute;
+    top:14%;
+    left:9%;
+
+}
+
+.animal_positionsBO img {
+    clip-path:circle(30% at 40%);
+    width:800px;
+    height:auto;
+    margin:20px;
+    
+}
+
+
+.animal_positionsCRG {
+    position:absolute;
+    top:22%;
+    left:9%;
+
+}
+
+.animal_positionsCRG img {
+    clip-path:circle(180px at 53%);
+    width:800px;
+    height:auto;
+    margin:20px;   
+  
+}
+
+.animal_positionsELG {
+    position:absolute;
+    top:22%;
+    left:8%;
+
+}
+
+.animal_positionsELG img {
+    clip-path:circle(170px at 40%);
+    width:700px;
+    height:auto;
+    margin:20px;
+  
+}
+
+.animal_positionsHT {
+    position:absolute;
+    top:22%;
+    left:10%;
+}
+
+.animal_positionsHT img {
+    clip-path:circle(180px at 32%);
+    width:800px;
+    height:auto;
+}
+
+.animal_positionsJR {
+    position:absolute;
+    top:10%;
+    left:10%;
+}
+
+.animal_positionsJR img {
+    clip-path:circle(180px at 25%);
+    width:800px;
+    height:auto;
+}
+
+
+
+.animal_positionsO {
+    position:absolute;
+    top:12%;
+    left:10%;
+}
+
+.animal_positionsO img {
+    clip-path:circle(180px at 28%);
+    width:800px;
+    height:auto;
+ 
+}
+
+.animal_positionsS {
+    position:absolute;
+    top:20%;
+    left:10%;
+
+
+}
+
+.animal_positionsS img {
+    clip-path:circle(180px at 28%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsSE {
+    position:absolute;
+    top:12%;
+    left:8%;
+
+}
+
+.animal_positionsSE img {
+    clip-path:circle(180px at 48%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsSR {
+    position:absolute;
+    top:12%;
+    left:12%;
+}
+
+.animal_positionsSR img {
+    clip-path:circle(180px at 63%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsST {
+    position:absolute;
+    top:12%;
+    left:10%;
+
+}
+
+.animal_positionsST img {
+    clip-path:circle(210px at 63%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsV {
+    position:absolute;
+    top:12%;
+    left:23%;
+}
+
+.animal_positionsV img {
+    clip-path:circle(190px at 42%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsWLG {
+    position:absolute;
+    top:12%;
+    left:12%;
+}
+
+.animal_positionsWLG img {
+    clip-path:circle(160px at 60%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsYFP {
+    position:absolute;
+    top:20%;
+    left:15%;
+
+
+}
+
+.animal_positionsYFP img {
+    clip-path:circle(160px at 30%);
+    width:800px;
+    height:auto; 
+}
+
+
+.animal_positionsAWG {
+    position:absolute;
+    top:12%;
+    left:12%;
+}
+
+.animal_positionsAWG img {
+    clip-path:circle(160px at 50%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsAE {
+    position:absolute;
+    top:12%;
+    left:19%;
+}
+
+.animal_positionsAE img {
+    clip-path:circle(180px at 50%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsBFF {
+    position:absolute;
+    top:9%;
+    left:27%;
+
+
+}
+
+.animal_positionsBFF img {
+    clip-path:circle(180px at 30%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsBW {
+    position:absolute;
+    top:9%;
+    right:60%;
+
+
+}
+
+.animal_positionsBW img {
+    clip-path:circle(180px at 70%);
+    width:650px;
+    height:auto; 
+}
+
+.animal_positionsBT {
+    position:absolute;
+    top:9%;
+    left:9%;
+
+}
+
+.animal_positionsBT img {
+    clip-path:circle(180px at 35%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsB {
+    position:absolute;
+    top:9%;
+    left:15%;
+}
+
+.animal_positionsB img {
+    clip-path:circle(200px at 60%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsHW {
+    position:absolute;
+    top:9%;
+    left:18%;
+
+}
+
+.animal_positionsHW img {
+    clip-path:circle(190px at 65%);
+    width:800px;
+    height:auto; 
+}
+
+.animal_positionsGT {
+    position:absolute;
+    top:10%;
+    left:16%;
+}
+
+.animal_positionsGT img {
+    clip-path:circle(190px at 30%);
+    width:800px;
+    height:auto; 
+}
+	
+	
+.animal_positions_name {
+  text-align:center;
+  font-size:50px;
+  
+}
+	
+ul {
+    position:absolute;
+    top:47%;
+    left:5%;
+    margin:4px;
+}
+	
+}

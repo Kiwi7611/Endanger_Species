@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Endangered Species</title>
+    <link rel="stylesheet" type="text/css" href="Endanger_Style.css"/>
+    <script src="https://kit.fontawesome.com/20fd8719b6.js"></script>
+
+</head>
+<body>
+
+   
+
+    <div id="container">
+        <div id="text"></div>
+    </div>
+    
+    <script type="text/javascript">
+    
+    // List of sentences
+    var _CONTENT = ["I'm Amur Leopard", "I'm Black Rhino", "I'm Bornean Orangutan", "I'm Cross River Gorilla", "I'm Eastern Lowland Gorilla", "I'm Hawksbill Turtle", "I'm Javan Rhino", "I'm Orangutan", "I'm Saola", "I'm Sumatran Elephant", "I'm Sumatran Orangutan", "I'm Sumatran Rhino", "I'm Sunda Tiger", "I'm Vaquita", "I'm Western Lowland Gorilla", "I'm Yangtze Finless Porpoise", "I'm African Wild Dog", "I'm Asian Elephant", "I'm Back-footed Ferret", "I'm Blue Whale", "I'm Bluefin Tuna", "I'm Bonobo", "I'm Humphead Wrasse", "I'm Green Turtle"];
+    
+    // Current sentence being processed
+    var _PART = 0;
+    
+    // Character number of the current sentence being processed 
+    var _PART_INDEX = 0;
+    
+    // Holds the handle returned from setInterval
+    var _INTERVAL_VAL;
+    
+    // Element that holds the text
+    var _ELEMENT = document.querySelector("#text");
+    
+    // Implements typing effect
+    function Type() { 
+        var text =  _CONTENT[_PART].substring(0, _PART_INDEX + 1);
+        _ELEMENT.innerHTML = text;
+        _PART_INDEX++;
+    
+        // If full sentence has been displayed then start to delete the sentence after some time
+        if(text === _CONTENT[_PART]) {
+            clearInterval(_INTERVAL_VAL);
+            setTimeout(function() {
+                _INTERVAL_VAL = setInterval(Delete, 50);
+            }, 1000);
+        }
+    }
+    
+    // Implements deleting effect
+    function Delete() {
+        var text =  _CONTENT[_PART].substring(0, _PART_INDEX - 1);
+        _ELEMENT.innerHTML = text;
+        _PART_INDEX--;
+    
+        // If sentence has been deleted then start to display the next sentence
+        if(text === '') {
+            clearInterval(_INTERVAL_VAL);
+    
+            // If last sentence then display the first one, else move to the next
+            if(_PART == (_CONTENT.length - 1))
+                _PART = 0;
+            else
+                _PART++;
+            _PART_INDEX = 0;
+    
+            // Start to display the next sentence after some time
+            setTimeout(function() {
+                _INTERVAL_VAL = setInterval(Type, 100);
+            }, 200);
+        }
+    }
+    
+    // Start the typing effect on load
+    _INTERVAL_VAL = setInterval(Type, 100);
+    
+    </script>
+
+<div class ="elephant_loc">
+    <img src = "https://1.bp.blogspot.com/-XR_H4qJluYU/XJdwf2XkhiI/AAAAAAAAJdE/CaqmuGyoczoQdmczC867uDyjhqRRzHwMgCK4BGAYYCw/s640/icon%2Banimal%2Belephant.png" width="400" height="400">
+</div>
+
+<div class="brush">
+	<p style=font-size:40px>WE ARE ON THE VERGE OF EXTINCTION</p>
+</div>
+
+<div class="wrap">
+    <form action="/allanimals" method="GET">
+    <div class = "search-bar">
+        <input type = "text" placeholder = "Search 'bluefin tuna' ">
+        <button type="submit" class="searchButton"><i class="fa fa-search"></i></button>
+</div></form></div>
+
+<div class="dropdown">
+    <button class="drop-button">Species</button>
+    <div class="dropdown-content">
+    <a href="/mammal">Mammal</a>
+    <a href="/reptile">Reptile</a>
+    <a href="/fish">Fish</a>
+    </div>
+  </div>
+
+<div class="dropdown1">
+    <button class="drop-button1">Habitat</button>
+    <div class="dropdown-content1">
+    <a href="/asia">Asia</a>
+    <a href="/africa">Africa</a>
+    <a href="/america">America</a>
+    </div>
+
+
+
+
+
+
+    
+</body>
+</html>
